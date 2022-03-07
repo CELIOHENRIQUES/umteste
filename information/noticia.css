@@ -1,0 +1,52 @@
+div.celio li{
+    font-size: 19px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    color: black;
+}
+div.celio{
+background-color: rgba(0, 81, 255, 0.247);
+margin-top: -8px;
+margin-left: -7px;
+margin-right: -6px;
+}
+body{
+    background-image: linear-gradient(100deg, green, aquamarine );
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 16pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+div.celio li:hover{
+    font-family: fantasy;
+    color: blue;
+    border: solid 2px blue;
+    background-color: #585858;
+    padding: 10px; 
+    transition: .4s;
+     
+    }
+    div.img img{
+        height: 100px;
+        width: 120px;
+        margin-left: 1190px;
+        margin-top: 15px;
+        
+        }
+     section#patri img{
+        width: 300px;
+        height: 342px;
+         
+     }
+     iframe#initial{
+         width: 550px;
+         height: 365px;
+         border: none;
+         overflow: hidden;
+     }
+     iframe#initial::-webkit-scrollbar-track-piece{
+         display: none;
+     }

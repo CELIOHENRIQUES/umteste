@@ -1,0 +1,45 @@
+div.celio li{
+    font-size: 19px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    color: black;
+}
+div.celio{
+background-color: rgba(0, 81, 255, 0.247);
+margin-top: -8px;
+margin-left: -7px;
+margin-right: -6px;
+}
+p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(255, 255, 255, 0.945);
+    margin-bottom: 224px;
+}
+body{
+    background-image: linear-gradient(100deg, black, yellow);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+div.celio li:hover{
+    font-family: fantasy;
+    color: blue;
+    border: solid 2px blue;
+    background-color: #585858;
+    padding: 10px; 
+    transition: .4s;
+     
+    }
+    div.img img{
+        height: 100px;
+        width: 120px;
+        margin-left: 1190px;
+        margin-top: 15px;
+        
+        }
+   
+            
+        

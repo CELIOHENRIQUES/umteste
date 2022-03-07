@@ -1,0 +1,104 @@
+div.celio li{
+    font-size: 19px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    color: black;
+   
+}
+div.celio{
+background-color: rgba(0, 81, 255, 0.247);
+margin-top: -8px;
+margin-left: -7px;
+margin-right: -6px;
+}
+body{
+    background-image: linear-gradient(100deg, orange, aquamarine );
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+div.celio li:hover{
+font-family: fantasy;
+color: blue;
+border: solid 2px blue;
+background-color: #585858;
+
+transition: .4s;
+ 
+}
+div.img img{
+    height: 100px;
+    width: 120px;
+margin-left: 1190px;
+margin-top: 15px;
+border:1px aqua  ;
+
+}
+div.felix{
+    font-size: 25px;
+    text-align: justify;
+    text-indent: 20px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div.henriques img{
+    width: 880px;
+    border:1px solid aqua;
+    box-shadow:20px 20px 50px black;
+  
+}
+div.henriques{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify; 
+    text-indent: 20px; 
+ 
+}
+div.henriques li{
+   list-style: none; 
+   width: 350px;
+   height: 200px;
+   border: solid rgba(0, 0, 0, 0) 2px;
+   background-color: blanchedalmond;
+   box-shadow: 2px 2px 4px rgba(0,0,0,.4);
+   -webkit-transition: all .3s ease-in;
+
+}
+ul#fotoalbum li span{
+    opacity: 0;
+    color: blanchedalmond;
+    text-shadow: black 2px 2px 2px;
+    background-color: rgba(0, 0, 0, 0.315);
+    line-height: 370px;
+    padding: 5px;
+}
+ul#fotoalbum li:hover span{
+    opacity: 2;
+}
+ul#fotoalbum li#foto0{
+    background: url(_imagens/1.png) no-repeat;
+    background-size:  350px 200px;
+    
+}
+ul#fotoalbum li#foto1{
+    background: url(_imagens/8.jpg) no-repeat;
+    background-position: 25% 25%;
+    background-size:  400px 400px;
+}
+ul#fotoalbum li#foto2{
+    background: url(_imagens/9.jpg) no-repeat;
+    background-position: 50% 50%;
+   
+}
+ul#fotoalbum li#foto3{
+    background: url(_imagens/2.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size:  400px 200px;
+}
+ul#fotoalbum li:hover{
+-webkit-transform: scale(1.2);
+
+}
+
+    
